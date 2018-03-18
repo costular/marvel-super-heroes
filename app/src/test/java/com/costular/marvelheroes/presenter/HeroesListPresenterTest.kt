@@ -30,8 +30,6 @@ class HeroesListPresenterTest {
 
         verify(view).showLoading(true)
         verify(usecase).execute(any(), any())
-
-        verify(view).showHeroesList(any())
     }
 
 }
