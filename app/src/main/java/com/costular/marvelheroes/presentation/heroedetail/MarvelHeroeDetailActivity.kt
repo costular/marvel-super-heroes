@@ -32,8 +32,8 @@ class MarvelHeroeDetailActivity : AppCompatActivity() {
         }
         supportPostponeEnterTransition() // Wait for image load and then draw the animation
 
-        val hero: MarvelHeroEntity = intent.extras.getParcelable(PARAM_HEROE)
-        fillHeroData(hero)
+        val hero: MarvelHeroEntity? = intent?.extras?.getParcelable(PARAM_HEROE)
+        hero?.let { fillHeroData(it) }
     }
 
     private fun fillHeroData(hero: MarvelHeroEntity) {
