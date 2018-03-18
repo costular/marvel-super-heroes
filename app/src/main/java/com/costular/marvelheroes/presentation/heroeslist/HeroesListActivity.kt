@@ -53,7 +53,7 @@ class HeroesListActivity : AppCompatActivity(), HeroesListContract.View {
     }
 
     private fun goToHeroDetail(hero: MarvelHeroEntity, image: View) {
-        navigator.goToHeroDetail(hero, image)
+        navigator.goToHeroDetail(this, hero, image)
     }
 
     override fun showLoading(isLoading: Boolean) {

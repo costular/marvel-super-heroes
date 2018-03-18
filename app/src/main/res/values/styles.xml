@@ -20,4 +20,38 @@
         <item name="android:alpha">0.8</item>
     </style>
 
+    <style name="HeroDetailName" parent="Base.TextAppearance.AppCompat.Title">
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginTop">24dp</item>
+    </style>
+
+    <style name="HeroDetailRealName">
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+    </style>
+
+    <style name="HeroDetailHeight">
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:drawableLeft">@drawable/ic_hero_height</item>
+        <item name="android:drawablePadding">4dp</item>
+    </style>
+
+    <style name="HeroDetailPower">
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:drawableLeft">@drawable/ic_hero_power</item>
+        <item name="android:drawablePadding">4dp</item>
+    </style>
+
+    <style name="HeroDetailAbilities">
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginTop">24dp</item>
+    </style>
+
+
 </resources>

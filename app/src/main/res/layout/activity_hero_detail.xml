@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="16dp">
+
+    <ImageView
+        android:id="@+id/heroDetailImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:transitionName="@string/image_transition" />
+
+    <TextView
+        android:id="@+id/heroDetailName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Iron Man"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        style="@style/HeroDetailName" />
+
+    <TextView
+        android:id="@+id/heroDetailRealName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Anthony Edward 'Tony' Stark"
+        style="@style/HeroDetailRealName" />
+
+    <TextView
+        android:id="@+id/heroDetailHeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/HeroDetailHeight"
+        tools:text="1.85m" />
+
+    <TextView
+        android:id="@+id/heroDetailPower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/HeroDetailPower"
+        tools:text="None; Tony's body had been enhanced by the modified techno-organic virus, Extremis, but it is currently inaccessible and inoperable." />
+
+    <TextView
+        android:id="@+id/heroDetailAbilities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/HeroDetailAbilities"
+        tools:text="Tony has a genius level intellect that allows him to invent a wide range of sophisticated devices, specializing in advanced weapons and armor. He possesses a keen business mind." />
+
+</LinearLayout>
+
+</ScrollView>
