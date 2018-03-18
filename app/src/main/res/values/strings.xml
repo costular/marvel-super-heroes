@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Marvel Heroes</string>
+
+    <!-- Animations -->
+    <string name="image_transition">imageTransition</string>
+
+</resources>

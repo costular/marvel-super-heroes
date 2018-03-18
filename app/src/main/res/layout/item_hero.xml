@@ -1,0 +1,34 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/movie_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground">
+
+    <com.costular.marvelheroes.presentation.util.SquareImageView
+        android:id="@+id/heroImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:transitionName="@string/image_transition"
+        tools:targetApi="lollipop" />
+
+    <TextView
+        android:id="@+id/heroTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Iron Man"
+        android:layout_gravity="bottom"
+        android:paddingLeft="16dp"
+        android:paddingStart="16dp"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:background="#000000"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:alpha="0.8" />
+
+</FrameLayout>
