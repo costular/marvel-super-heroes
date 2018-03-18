@@ -20,3 +20,5 @@ Marvel Heroes es una app para Android que lista algunos de los súperheroes de M
 - Normalmente suelo aplicar BDD mediante [GivenWhenThen](https://martinfowler.com/bliki/GivenWhenThen.html), sin embargo, este no ha sido el caso (en todos los tests, al menos). Sí, una vez más por el mismo motivo 😛
 
 - Se ha utilizado [Android KTX](https://github.com/android/android-ktx) para añadir ciertas extension functions muy interesantes y útiles para el desarrollo. Algunas como `Context.toast()` no están en el repositorio de Maven en el momento que se desarrolla esta app; aunque sí que lo está en el repositorio de GitHub.
+
+- Con más tiempo me hubiera gustado implementar [Room](https://developer.android.com/topic/libraries/architecture/room.html) o cualquier otro DAO/ORM para mostrar un ejemplo claro de Repository.
