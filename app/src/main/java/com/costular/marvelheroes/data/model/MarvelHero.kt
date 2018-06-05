@@ -14,9 +14,4 @@ data class MarvelHero(
         val power: String = "",
         val abilities: String = "",
         val groups: String = ""
-) {
-
-        fun getGroups(): Array<String> =
-                groups.replace("\\s".toRegex(), "").split(",").toTypedArray()
-
-}
+)
